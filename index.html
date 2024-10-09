@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <style>
+    body {
+        background-color: #b9a2a2;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        max-width: 10 10px;
+        color: rgb(3, 31, 31);
+    }
+    #start-button{
+        background-color: #22e25c;
+    padding: 10px 25px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 350px;
+    }
+    #start-button:hover{
+        padding: 10px 40px;
+    background-color: #08D9D6;
+    color: #000;
+    }
+    h2{
+        font-size: smaller;
+    }
+    h1{
+        font-size: 60px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <h2>by MIGHTY IT</h2>
+    <button id="start-button">Start Game</button>
+
+    <script>
+
+document.getElementById("start-button").onclick = function () {
+    location.href = "game.html";
+};
+    </script>
+</body>
